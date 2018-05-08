@@ -1,0 +1,11 @@
+[package]
+name = "jakar-threadpool"
+version = "0.1.0"
+authors = ["Sieben Corgie <siebencorgie@googlemail.com>"]
+
+[dependencies]
+
+
+[[example]]
+name = "simple_pool"
+path = "examples/simple_pool.rs"

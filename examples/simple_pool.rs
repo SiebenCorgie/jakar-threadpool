@@ -38,7 +38,9 @@ fn main(){
     let thread_size = 16;
 
     //Creates a thread pool, sends it some infos and the shuts down
-    let mut pool = ThreadPool::new(thread_size, 0);
+    let mut pool = ThreadPool::new_logical_optimal("BestThreadPool".to_string());
+
+    println!("Spawned pool with size: {}", pool.len());
 
     pool.execute(||{
         println!("Hello from thread!", );

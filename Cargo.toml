@@ -1,10 +1,10 @@
 [package]
 name = "jakar-threadpool"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Sieben Corgie <siebencorgie@googlemail.com>"]
 
 [dependencies]
-
+num_cpus = "1.8.0"
 
 [[example]]
 name = "simple_pool"

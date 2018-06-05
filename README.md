@@ -1,5 +1,10 @@
 # jakar-threadpool
-A small utility crate for the [jakar engine](https://github.com/SiebenCorgie/jakar-engine).
+A small utility crate for the [jakar engine](https://gitlab.com/Siebencorgie/jakar-engine).
+
+## MOVED TO GITLAB
+
+Since I am kind of a idealist I moved the whole project including the sub crates to Gitlab:
+https://gitlab.com/Siebencorgie/jakar-engine
 
 ## Functionality
 The `ThreadPool` can spawn several threads and distributes the asynchronous over

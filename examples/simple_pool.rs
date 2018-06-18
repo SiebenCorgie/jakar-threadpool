@@ -81,7 +81,10 @@ fn main(){
         });
     }
 
+
     pool.execute(||{ assert!(4 == 5); });
 
-    //no go out of scope and end gracefully
+    pool.wait();
+    println!("SHUTTING DOWN NOWW", );
+    //now go out of scope and end gracefully
 }
